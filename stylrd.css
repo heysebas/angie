@@ -208,3 +208,22 @@ background-color: black;
     background-color: aliceblue;
     margin-top: 300px;
 } */
+
+
+@media (max-width: 400px) {
+    .todo{
+    margin-right: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    .todo{
+    margin-right: 350px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .todo{
+    margin-right: 350px;
+    }
+}
