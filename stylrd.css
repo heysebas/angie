@@ -1,0 +1,210 @@
+*{
+margin: 0;
+padding: 0;
+background-color: black;
+}
+
+.todo{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    perspective: 1000px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.conteiner{
+    
+    margin-top: 700px;
+}
+
+.conteiner_2{
+    
+    
+}
+.conteiner_3{
+    
+    margin-bottom: 700px;
+    
+}
+
+
+
+ .lado{
+    height: 300px;
+    width: 300px;
+    animation: girar 8s linear infinite ;
+    position: absolute;
+    
+    background-color: brown;
+    
+} 
+
+
+ .lado_3{
+    height: 300px;
+    width: 300px;
+    animation: girar 8s linear infinite ;
+    position: absolute;
+    background-color: brown;
+    
+} 
+
+.lado_5{
+    height: 300px;
+    width: 300px;
+    animation: girar 8s linear infinite ;
+    position: absolute;
+    background-color: brown;
+    
+} 
+
+@keyframes girar {
+    from{
+        transform:  rotateY(360deg) translateZ(150px);
+        z-index: 10;
+    }
+
+    50%{
+        z-index: -10;
+    }
+    to{
+        transform:  rotateY(0) translateZ(150px);
+        z-index: 10;
+    }
+}
+
+
+
+#lado_d{
+    background-image: url(img/a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+#lado_c{
+    background-image: url(img/b.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -2s;
+}
+
+#lado_b{
+    background-image: url(img/c.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -4s;
+}
+
+
+
+#lado_a{
+    background-image: url(img/d.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -6s;
+}
+
+
+
+#lado_j{
+    background-image: url(img/e.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+#lado_i{
+    background-image: url(img/f.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -2s;
+}
+
+#lado_h{
+    background-image: url(img/g.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -4s;
+}
+
+
+
+#lado_g{
+    background-image: url(img/h.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -6s;
+}
+
+
+#lado_t{
+    background-image: url(img/i.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+#lado_q{
+    background-image: url(img/a.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -2s;
+}
+
+#lado_w{
+    background-image: url(img/j.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -4s;
+}
+
+
+
+#lado_r{
+    background-image: url(img/f.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -6s;
+}
+
+
+
+.lado_2{
+    height: 300px;
+    width: 300px;
+    animation: girar_2 4s linear infinite;
+    position: absolute;
+}
+
+@keyframes girar_2{
+    from{
+        transform: rotateY(360deg) rotateX(90deg);
+
+    }
+    to{
+        transform: rotateY(0deg) rotateX(90deg);
+    }
+}
+
+/* #lado_e{
+    background-color: aliceblue;
+    margin-bottom: 300px;
+}
+
+#lado_f{
+    background-color: aliceblue;
+    margin-top: 300px;
+} */
